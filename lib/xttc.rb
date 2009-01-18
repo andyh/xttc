@@ -9,7 +9,7 @@ begin
 rescue
   puts """To use XTTC:\n
   $ vi ~/.xttc
-  
+site: http://tt.example.com  
 username: foo
 password: sekret
 
@@ -20,13 +20,13 @@ password: sekret
 end
 
 class Project < ActiveResource::Base
-  self.site = 'http://tt.entp.com/'
+  self.site = CONFIG["site"]
   self.user = CONFIG["username"]
   self.password = CONFIG["password"]
 end
 
 class Status < ActiveResource::Base
-  self.site = 'http://tt.entp.com/'
+  self.site = CONFIG["site"]
   self.user = CONFIG["username"]
   self.password = CONFIG["password"]
 end

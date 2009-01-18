@@ -1,14 +1,14 @@
 Gem::Specification.new do |s|
   s.name = %q{xttc}
-  s.version = "0.1.2"
+  s.version = "0.1.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Jesse Newland"]
+  s.authors = ["Jesse Newland","Andy Henson"]
   s.date = %q{2008-07-28}
   s.default_executable = %q{xttc}
   s.description = %q{A command line bot for working with XTT, ENTP's rad time tracking app}
   s.summary = %q{A command line bot for working with XTT, ENTP's rad time tracking app}
-  s.email = %q{jnewland@gmail.com}
+  s.email = %q{andy@elaptics.co.uk}
   s.executables = ["xttc"]
   s.files = [
     'README',
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
     'lib/cli.rb'
   ]
   s.has_rdoc = false
-  s.homepage = %q{http://github.com/jnewland}
+  s.homepage = %q{http://github.com/andyh}
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{xttc}
   s.rubygems_version = %q{1.2.0}
